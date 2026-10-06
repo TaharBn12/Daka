@@ -1,0 +1,12 @@
+{
+  "name": "دكا - متابعة أرباح التداول",
+  "short_name": "دكا",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f7f9fc",
+  "theme_color": "#335cff",
+  "description": "تنظيم ومتابعة نسبة الربح الشهرية في التداول",
+  "lang": "ar",
+  "dir": "rtl",
+  "icons": []
+}
