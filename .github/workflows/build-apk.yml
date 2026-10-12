@@ -29,3 +29,12 @@ jobs:
           name: daka-release-apk
           path: build/app/outputs/flutter-apk/app-release.apk
           retention-days: 30
+      - name: Publish GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v1.0.0
+          name: Daka Android v1.0.0
+          body: "نسخة Android الأولى من تطبيق دكا لمتابعة أرباح التداول."
+          files: build/app/outputs/flutter-apk/app-release.apk
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
